@@ -1,7 +1,9 @@
 #Welcome {
     text-align: center;
 }
-
+body{
+    background-color: rgb(34, 34, 207);
+}
 
 .pictures{
     display: block;
@@ -9,3 +11,14 @@
     margin-right: auto;
     width: 50%;
 }
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    margin-left: 25%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
