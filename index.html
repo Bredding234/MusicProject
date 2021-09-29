@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>   <link rel="stylesheet" href="styles.css">
-    </head>
-    <title>Create Object from JSON String</title>
-<body>
+    <title>The Music Application</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+   </head>
 
+<body>
+ 
 <h1 id ="Welcome">Welcome to Music</h1>
+  <div class="topnav-centered">
+        <ul>
+          <li><a href="#" style="text-align:center" class="active">Home</a></li>
+          <li><a href="#"style="text-align:center" class="active2">News</a></li>
+          <li><a href="#"style="text-align:center" class="active3">Contact</a></li>
+          <li><a href="#"style="text-align:center" class="active4">About</a></li>
+        </ul>
+</div>
 
 <p id="demo"></p>
 <input type="text" id="fname" name="firstname" placeholder="Type in Music Artist..">
@@ -13,16 +25,110 @@
 <div class = "slideshow-container">
     <div class = "mySlides fade">
      <div class="numbertext"></div>
-    <img class = "pictures" src="images/king.jfif" width="150" height="550">
+    <!-- <img class = "pictures" src="images/king.jfif" width="150" height="550"> -->
      
+</div>
+<div class="container">
+  <div class="row">
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+<div class="our-team" id="pics1">
+  <div class="picture" >
+    <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=1027"> -->
+  <img class = "img-fluid" src="images/drake.jpg" width="250" height="300"> 
+
+  </div>
+  <div class="team-content">
+    <h3 class="name" style="text-align:center">Drake</h3>
+    <h4 class="title">Music Artist</h4>
+  </div> 
+</div>
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="our-team"  id="picture2">
+      <div class="picture">
+        <img class="img-fluid" src="images/em.jfif" width="250" height="300">
+      </div>
+    <div class="team-content">
+      <h3 class="name" > Eminem </h3>
+      <h4 class="title"> Music Artist</h4>
     </div>
-    
-    
-    
-    
-    <button onClick = "setTimer()"> STOP</button>
-    <button onClick = "startSlide()"> RESUME </button>
-    <button onClick = "restartSlides()"> RESTART </button>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="our-team"  id="picture3">
+      <div class="picture">
+        <img class="img-fluid" src="images/king.jfif" width="250" height="300">
+      </div>
+    <div class="team-content">
+      <h3 class="name" > King Von </h3>
+      <h4 class="title"> Music Artist</h4>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<!--  -->
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+  <div class="our-team" id="pics1">
+    <div class="picture" >
+      <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=1027"> -->
+    <img class = "img-fluid" src="images/nasx.jfif" width="250" height="300"> 
+  
+    </div>
+    <div class="team-content">
+      <h3 class="name" style="text-align:center">Lil Nas X</h3>
+      <h4 class="title">Music Artist</h4>
+    </div> 
+  </div>
+  
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+    <div class="our-team"  id="picture2">
+        <div class="picture">
+          <img class="img-fluid" src="images/br.jfif" width="250" height="300">
+        </div>
+      <div class="team-content">
+        <h3 class="name" > Bruno Mars </h3>
+        <h4 class="title"> Music Artist</h4>
+      </div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+    <div class="our-team"  id="picture3">
+        <div class="picture">
+          <img class="img-fluid" src="images/lilbaby.jpg" width="250" height="300">
+        </div>
+      <div class="team-content">
+        <h3 class="name" > Lil Baby </h3>
+        <h4 class="title"> Music Artist</h4>
+      </div>
+  </div>
+  </div>
+  </div>
+
+
+
+   
 
 <script src="website.js"></script>
 
