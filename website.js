@@ -52,10 +52,21 @@ imageOne.src = "./Images/br.jfif";
  
 
 function searchButton(){
-  var searchBox = document.getElementById("fnames").value;
-  var pics1 = document.getElementById("pics1"); 
-  if(searchBox == "Drake"){
-      document.body.innerHTML += pics1; // prints out data
-      document.write(pics1)
+  var searchBox = document.getElementById("fnames");
+  var filter = searchBox.value.toLowerCase();
+  var nodes = document.getElementsByClassName("our-team"); 
+  for (i = 0; i < nodes.length; i++) {
+    if (nodes[i].innerText.toLowerCase().includes(filter)) {
+      nodes[i].style.display = +"block" ;
+    } else {
+      nodes[i].style.display = "none";
+    }
   }
+
+  // if(searchBox == "Drake"){
+  //     document.body.innerHTML += pics1; // prints out data
+  //     document.write(pics1)
+  // }
 }
+
+
