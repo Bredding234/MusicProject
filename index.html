@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <head>   <link rel="stylesheet" href="styles.css">
     <title>The Music Application</title> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +22,7 @@
 </div>
 
 <p id="demo"></p>
-<input type="text" id="fname" name="firstname" placeholder="Type in Music Artist..">
+<input type="text" class="fname" id="fnames" name="firstname" placeholder="Type in Music Artist..">
 
 <div class = "slideshow-container">
     <div class = "mySlides fade">
@@ -30,7 +32,7 @@
 </div>
 <div class="container">
   <div class="row">
-<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+<div class="col-12 col-sm-6 col-md-4 col-lg-3" id="test">
 
 <div class="our-team" id="pics1">
   <div class="picture" >
@@ -51,7 +53,7 @@
       </div>
     <div class="team-content">
       <h3 class="name" > Eminem </h3>
-      <h4 class="title"> Music Artist</h4>
+      <h4 class="title"> Music Artist </h4>
     </div>
 </div>
 </div>
@@ -127,8 +129,20 @@
   </div>
 
 
+  <button onClick="searchButton()"> Search </button>
+ 
 
-   
+
+<div class="flex-container">
+  
+
+      <div>1</div>
+
+      <div>2</div>
+      <div>3</div>  
+</div>
+
+
 
 <script src="website.js"></script>
 
