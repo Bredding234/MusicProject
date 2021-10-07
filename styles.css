@@ -1,6 +1,6 @@
 #Welcome {
     text-align: center;
-
+    
 }
 body{
     background-color: rgb(34, 34, 207);
@@ -24,11 +24,11 @@ input[type=text], select {
     box-sizing: border-box;
   }
 
-  ul {
+  .topnav-centered {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    max-width: 63%;
+    max-width: 64%;
     margin-left: 18%;
     background-color: #666;
   }
@@ -223,7 +223,9 @@ input[type=text], select {
     visibility: visible;
   }
 
-
+.nav-bar{
+ margin-left: 7%;
+}
 
   .flex-container {
     display: flex;
@@ -236,11 +238,37 @@ input[type=text], select {
   
   .flex-container > div {
     background-color: white;
-    width: 156px;
+    width: 256px;
     margin: 10px;
+
+    padding: 42px;
     text-align: center;
-    height: 135px;
+    height: 250px;
     font-size: 30px;
-    
   }
 
+  
+.package1:hover{
+  background-color: #0f72e4;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.ButtonT3 {
+  position: relative;
+  background-color: #3668ff;
+  color: #fff;
+  padding: .1rem 1.2rem;
+  left: 17%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.ButtonT3 {
+  font-size: 14px;
+  line-height: 2.6rem;
+}
