@@ -4,6 +4,8 @@
 }
 body{
     background-color: rgb(34, 34, 207);
+    width: 100%;
+    height: 100%;
 }
 
 .pictures{
@@ -243,7 +245,7 @@ input[type=text], select {
 
     padding: 42px;
     text-align: center;
-    height: 250px;
+    height: 20rem;
     font-size: 30px;
   }
 
@@ -253,7 +255,16 @@ input[type=text], select {
   transition: 0.3s;
   opacity: 1;
 }
-
+.package2:hover{
+  background-color: #0f72e4;
+  transition: 0.3s;
+  opacity: 1;
+}
+.package3:hover{
+  background-color: #0f72e4;
+  transition: 0.3s;
+  opacity: 1;
+}
 .ButtonT3 {
   position: relative;
   background-color: #3668ff;
@@ -271,4 +282,22 @@ input[type=text], select {
 .ButtonT3 {
   font-size: 14px;
   line-height: 2.6rem;
+}
+
+.footer {
+  position: fixed;
+  margin-top:10px;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0fb2e4dc;
+  color: white;
+  text-align: center;
+}
+
+.footers{
+  background-color: red;
+  width: 50%;
+  height: 100%;
 }
