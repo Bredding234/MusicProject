@@ -32,7 +32,11 @@
      <div class="numbertext"></div>
     <!-- <img class = "pictures" src="images/king.jfif" width="150" height="550"> -->
      
-</div>
+</div> 
+<div id="output" style="height: 39vh;background-color: rgb(255, 255, 255); width: 26vw; left: 46%; position: absolute;display: none;"></div>
+<br>
+<br>
+
 <div class="container">
   <div class="row">
 <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="test">
@@ -46,9 +50,12 @@
   <div class="team-content">
     <h3 class="name" style="text-align:center">Drake</h3>
     <h4 class="title">Music Artist</h4>
-  </div> 
-</div>
+    <button class="btn btn-primary" onclick="searches()"> Drake Music</button>
 
+  </div>    
+
+</div>
+<div id="output2" style="height: 39vh;background-color: rgb(255, 255, 255); width: 26vw; left: 46%; position: absolute;display: none;"></div>
 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
   <div class="our-team"  id="picture2">
       <div class="picture">
@@ -57,6 +64,7 @@
     <div class="team-content">
       <h3 class="name" > Eminem </h3>
       <h4 class="title"> Music Artist </h4>
+      <button class="btn btn-primary" onclick="search2()"> Eminem Music </button>
     </div>
 </div>
 </div>
@@ -75,21 +83,7 @@
 </div>
 </div>
 
-
-
-
-
-
-
 <!--  -->
-
-
-
-
-
-
-
-
 
 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
 
@@ -117,7 +111,6 @@
   </div>
   </div>
   </div>
-  
   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
     <div class="our-team"  id="picture3">
         <div class="picture">
@@ -130,10 +123,10 @@
   </div>
   </div>
   </div>
-
-
   <button onClick="searchButton()"> Search </button>
- 
+ <br>
+ <br>
+ <br>
 
 
 <div class="flex-container">
@@ -172,24 +165,160 @@
     Unlimited skips *
 
 
+  </p><br>
+  <p style="font-size: 14px; color: rgba(0,0,0,.6); position: absolute; margin-top: -27px;  margin-left: 36px;">
+    Offline listening
+
+
+  </p><br>
+  <p style="font-size: 14px; color: rgba(0,0,0,.6); position: absolute; margin-top: -27px;  margin-left: 36px;">
+    Unlimited skips *
+
+
   </p>
+<hr style="color: blue;" />
+<br>
+<p style="font-size: 12px; color: rgba(0,0,0,.8); position: absolute; margin-top: -27px;  margin-left: 36px;">
+  * Unlock by viewing an ad
 
 
+</p>
 </div>
-      <div>
+      <div class="package2">
         <h1 style=" font-size: 18px; margin-top: -21px;">Package two</h1>
         <h2 style="color: blue; font-size: 17px;  ">    $4.99 / month </h2>
-        <span class="material-icons-outlined" style="color: blue;  margin-right: 58%; ">
+        <button class="ButtonT3 ButtonT3--large ButtonT3--full ButtonT3--pill" type="button" data-qa="upgrade_card_cta_button"><span>Get 30 Days Free</span></button>
+        <span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
           done
-          </span>
+              </span>
+          <p style="font-size: 14px; position: absolute; margin-top: -27px;  margin-left: 40px;">
+            Ad-free personalized stations
+    </p>
+    <span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
+      done
+      </span>
+ <p style="font-size: 14px; position: absolute; margin-top: -27px;  margin-left: 36px;">
+  Search and play what you want *
+
+</p>
+<span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
+  done
+      </span>
+ <p style="font-size: 14px; position: absolute; margin-top: -27px;  margin-left: 36px;">
+  Enjoy your favorite podcasts
+
+
+</p>
+<span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
+  done
+      </span>
+ <p style="font-size: 14px; position: absolute; margin-top: -27px;  margin-left: 36px;">
+  Unlimited skips *
+
+
+</p>
+
+<span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
+  done
+      </span>
+ <p style="font-size: 14px; position: absolute; margin-top: -27px;  margin-left: 36px;">
+  Offline listening
+
+
+</p><br>
+
+
+
+<p style="font-size: 14px; color: rgba(0,0,0,.6); position: absolute; margin-top: -27px;  margin-left: 36px;">
+  Make and share playlists
+</p>
+<hr style="color: blue;" />
+<br>
+<p style="font-size: 12px; color: rgba(0,0,0,.8); position: absolute; margin-top: -27px;  margin-left: 36px;">
+* Unlock by viewing an ad
+
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
 
       </div>
-      <div>
+      <div class="package3">
         <h1 style=" font-size: 18px; margin-top: -21px;">Package three</h1>
         <h2 style="color: blue; font-size: 17px;  "> $9.99 / month</h2>
-        <span class="material-icons-outlined" style="color: blue;  margin-right: 58%; ">
+        <button class="ButtonT3 ButtonT3--large ButtonT3--full ButtonT3--pill" type="button" data-qa="upgrade_card_cta_button"><span>Get 60 Days Free</span></button>
+        <span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
           done
-          </span>
+              </span>
+
+          <p style="font-size: 14px; position: absolute; margin-top: -27px;  margin-left: 40px;">
+            Ad-free personalized stations
+    </p>
+    <span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
+      done
+      </span>
+ <p style="font-size: 14px; position: absolute; margin-top: -27px;  margin-left: 36px;">
+  Search and play what you want *
+
+</p>
+<span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
+  done
+      </span>
+ <p style="font-size: 14px; position: absolute; margin-top: -27px;  margin-left: 36px;">
+  Enjoy your favorite podcasts
+
+
+</p>
+<span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
+  done
+      </span>
+ <p style="font-size: 14px; position: absolute; margin-top: -27px;  margin-left: 36px;">
+  Unlimited skips *
+
+
+</p>
+
+<span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
+  done
+      </span>
+ <p style="font-size: 14px; position: absolute; margin-top: -27px;  margin-left: 36px;">
+  Unlimited offline listening 
+
+</p>
+
+<span class="material-icons-outlined" style="color: blue;  margin-right: 100%; ">
+  done
+      </span>
+
+<p style="font-size: 14px;  position: absolute; margin-top: -27px;  margin-left: 36px;">
+  Make and share playlists
+</p>
+<div data-qa="upgrade_card_links_title" style="font-size: 1rem;"><span>Discounted Premium Plans</span></div><br>
+<ul style="font-size: 14px;  position: absolute; margin-top: -27px;  margin-left: -2rem;"> <li style="color: blue; font-size:1rem;">FAMILY </li> | <li style="color: blue; font-size:1rem; "> STUDENT </li> | <li style="color: blue; font-size:1rem;"> MILITARY </li><ul>
+<br> 
+<br>
+
+<div class="footers"> 
+
+
+  
+
+</div>
+
+
+
+
+
+
 
       </div>  
 </div>
