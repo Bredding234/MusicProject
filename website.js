@@ -105,17 +105,8 @@ function searches(){
 
 
 function search2(){
-	var T = document.getElementById("output");
+	var T = document.getElementById("output2");
   T.style.display = "block";  // <-- Set it to block
-     for (let obj of songNames) {
-       //console.log(obj.Points);
-     T.innerHTML += "title: " + obj.title +  "<br>" + "SpotifyURL: " + obj.spotifyURI + "<br>";
-     }
-}
-
-function search2(){
-	var T2 = document.getElementById("output2");
-  T2.style.display = "block";  // <-- Set it to block
      for (let obj of songNames2) {
        //console.log(obj.Points);
      T.innerHTML += "title: " + obj.title +  "<br>" + "SpotifyURL: " + obj.spotifyURI + "<br>";
@@ -123,9 +114,18 @@ function search2(){
 }
 
 function search3(){
-
+	var T2 = document.getElementById("output3");
+  T2.style.display = "block";  // <-- Set it to block
+     for (let obj of songNames2) {
+       //console.log(obj.Points);
+     T.innerHTML += "title: " + obj.title +  "<br>" + "SpotifyURL: " + obj.spotifyURI + "<br>";
+     }
 }
 
 function search4(){
+
+}
+
+function search5(){
 
 }
