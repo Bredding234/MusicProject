@@ -13,7 +13,18 @@ const songNames = [{title: "Omertà", spotifyURI: "https://open.spotify.com/trac
 				   {title: "Congratulations", spotifyURI: "3SnXwQUrvSacFziUYXTNKY".link("https://open.spotify.com/track/3SnXwQUrvSacFziUYXTNKY")}];
 
 
-const songNames2 = [{title: "Omertà", spotifyURI: "https://open.spotify.com/track/3kCwyvhvVTyehIzYN2I0nF".link("https://open.spotify.com/track/3kCwyvhvVTyehIzYN2I0nF")},
+const songNames2 = [{title: "Higher", spotifyURI: "https://open.spotify.com/track/3eMsgWDRq5dKl5SBTYGv2J".link("https://open.spotify.com/track/3eMsgWDRq5dKl5SBTYGv2J")},
+				   {title: "Without Me", spotifyURI: "https://open.spotify.com/track/2YaiY5Cr8IFv0X0YRZDNzV?autoplay=true".link("https://open.spotify.com/track/2YaiY5Cr8IFv0X0YRZDNzV?autoplay=true")},
+				   {title: "Till I Collapse", spotifyURI: "https://open.spotify.com/track/6p4SUKhIyPqbmU828M0JWD?autoplay=true".link("https://open.spotify.com/track/6p4SUKhIyPqbmU828M0JWD?autoplay=true")},
+				   {title: "Lose Yourself", spotifyURI: "https://open.spotify.com/track/77Ft1RJngppZlq59B6uP0z?autoplay=true".link("https://open.spotify.com/track/77Ft1RJngppZlq59B6uP0z?autoplay=true")},
+				   {title: "Love The Way You Lie", spotifyURI: "https://open.spotify.com/track/4k5Rb51qsUSMFg6oFdVC48?autoplay=true".link("https://open.spotify.com/track/4k5Rb51qsUSMFg6oFdVC48?autoplay=true")},
+				   {title: "Stan", spotifyURI: "https://open.spotify.com/track/3UmaczJpikHgJFyBTAJVoz?autoplay=true".link("https://open.spotify.com/track/3UmaczJpikHgJFyBTAJVoz?autoplay=true")},
+				   {title: "The Monster", spotifyURI: "https://open.spotify.com/track/31T6dBbxWAz8eiXmL64JHk?autoplay=true".link("https://open.spotify.com/track/31T6dBbxWAz8eiXmL64JHk?autoplay=true")},
+				   {title: "The Real Slim Shady", spotifyURI: "https://open.spotify.com/track/3yfqSUWxFvZELEM4PmlwIR?autoplay=true".link("https://open.spotify.com/track/3yfqSUWxFvZELEM4PmlwIR?autoplay=true")},
+				   {title: "Not Afraid", spotifyURI: "https://open.spotify.com/track/6l75Og7UcnKVqM14tGhjD6?autoplay=true".link("https://open.spotify.com/track/6l75Og7UcnKVqM14tGhjD6?autoplay=true")}];
+
+
+           const songNames3 = [{title: "Omertà", spotifyURI: "https://open.spotify.com/track/3kCwyvhvVTyehIzYN2I0nF".link("https://open.spotify.com/track/3kCwyvhvVTyehIzYN2I0nF")},
 				   {title: "Money in the Grave", spotifyURI: "5ry2OE6R2zPQFDO85XkgRb".link("https://open.spotify.com/track/5ry2OE6R2zPQFDO85XkgRb")},
 				   {title: "Diplomatic Immunity", spotifyURI: "4haJoBPbPj9QFKNpp9e8kx".link("https://open.spotify.com/track/4haJoBPbPj9QFKNpp9e8kx")},
 				   {title: "Deep Pockets", spotifyURI: "3IvMYBE7A3c7to1aEcfFJk".link("https://open.spotify.com/track/3IvMYBE7A3c7to1aEcfFJk")},
@@ -22,7 +33,42 @@ const songNames2 = [{title: "Omertà", spotifyURI: "https://open.spotify.com/tra
 				   {title: "The Calm", spotifyURI: "6MlGqWzDiLkZ0vmAEsisEk".link("https://open.spotify.com/track/6MlGqWzDiLkZ0vmAEsisEk")},
 				   {title: "Brand New", spotifyURI: "4XTXamS1g4g93jPxyuFJJ6".link("https://open.spotify.com/track/4XTXamS1g4g93jPxyuFJJ6")},
 				   {title: "Congratulations", spotifyURI: "3SnXwQUrvSacFziUYXTNKY".link("https://open.spotify.com/track/3SnXwQUrvSacFziUYXTNKY")}];
-// change method changes the picture every two seconds
+
+
+           const songNames4 = [{title: "Omertà", spotifyURI: "https://open.spotify.com/track/3kCwyvhvVTyehIzYN2I0nF".link("https://open.spotify.com/track/3kCwyvhvVTyehIzYN2I0nF")},
+				   {title: "Money in the Grave", spotifyURI: "5ry2OE6R2zPQFDO85XkgRb".link("https://open.spotify.com/track/5ry2OE6R2zPQFDO85XkgRb")},
+				   {title: "Diplomatic Immunity", spotifyURI: "4haJoBPbPj9QFKNpp9e8kx".link("https://open.spotify.com/track/4haJoBPbPj9QFKNpp9e8kx")},
+				   {title: "Deep Pockets", spotifyURI: "3IvMYBE7A3c7to1aEcfFJk".link("https://open.spotify.com/track/3IvMYBE7A3c7to1aEcfFJk")},
+				   {title: "Sooner Than Later", spotifyURI: "43iKgGbmfqPLh3mxUlospI".link("https://open.spotify.com/track/43iKgGbmfqPLh3mxUlospI")},
+				   {title: "Bria's Interlude", spotifyURI: "4i3GraNMzBKze1WsVl38DS".link("https://open.spotify.com/track/4i3GraNMzBKze1WsVl38DS")},
+				   {title: "The Calm", spotifyURI: "6MlGqWzDiLkZ0vmAEsisEk".link("https://open.spotify.com/track/6MlGqWzDiLkZ0vmAEsisEk")},
+				   {title: "Brand New", spotifyURI: "4XTXamS1g4g93jPxyuFJJ6".link("https://open.spotify.com/track/4XTXamS1g4g93jPxyuFJJ6")},
+				   {title: "Congratulations", spotifyURI: "3SnXwQUrvSacFziUYXTNKY".link("https://open.spotify.com/track/3SnXwQUrvSacFziUYXTNKY")}];
+      
+           const songNames5 = [{title: "Omertà", spotifyURI: "https://open.spotify.com/track/3kCwyvhvVTyehIzYN2I0nF".link("https://open.spotify.com/track/3kCwyvhvVTyehIzYN2I0nF")},
+				   {title: "Money in the Grave", spotifyURI: "5ry2OE6R2zPQFDO85XkgRb".link("https://open.spotify.com/track/5ry2OE6R2zPQFDO85XkgRb")},
+				   {title: "Diplomatic Immunity", spotifyURI: "4haJoBPbPj9QFKNpp9e8kx".link("https://open.spotify.com/track/4haJoBPbPj9QFKNpp9e8kx")},
+				   {title: "Deep Pockets", spotifyURI: "3IvMYBE7A3c7to1aEcfFJk".link("https://open.spotify.com/track/3IvMYBE7A3c7to1aEcfFJk")},
+				   {title: "Sooner Than Later", spotifyURI: "43iKgGbmfqPLh3mxUlospI".link("https://open.spotify.com/track/43iKgGbmfqPLh3mxUlospI")},
+				   {title: "Bria's Interlude", spotifyURI: "4i3GraNMzBKze1WsVl38DS".link("https://open.spotify.com/track/4i3GraNMzBKze1WsVl38DS")},
+				   {title: "The Calm", spotifyURI: "6MlGqWzDiLkZ0vmAEsisEk".link("https://open.spotify.com/track/6MlGqWzDiLkZ0vmAEsisEk")},
+				   {title: "Brand New", spotifyURI: "4XTXamS1g4g93jPxyuFJJ6".link("https://open.spotify.com/track/4XTXamS1g4g93jPxyuFJJ6")},
+				   {title: "Congratulations", spotifyURI: "3SnXwQUrvSacFziUYXTNKY".link("https://open.spotify.com/track/3SnXwQUrvSacFziUYXTNKY")}];
+      
+
+           const songNames6 = [{title: "Omertà", spotifyURI: "https://open.spotify.com/track/3kCwyvhvVTyehIzYN2I0nF".link("https://open.spotify.com/track/3kCwyvhvVTyehIzYN2I0nF")},
+				   {title: "Money in the Grave", spotifyURI: "5ry2OE6R2zPQFDO85XkgRb".link("https://open.spotify.com/track/5ry2OE6R2zPQFDO85XkgRb")},
+				   {title: "Diplomatic Immunity", spotifyURI: "4haJoBPbPj9QFKNpp9e8kx".link("https://open.spotify.com/track/4haJoBPbPj9QFKNpp9e8kx")},
+				   {title: "Deep Pockets", spotifyURI: "3IvMYBE7A3c7to1aEcfFJk".link("https://open.spotify.com/track/3IvMYBE7A3c7to1aEcfFJk")},
+				   {title: "Sooner Than Later", spotifyURI: "43iKgGbmfqPLh3mxUlospI".link("https://open.spotify.com/track/43iKgGbmfqPLh3mxUlospI")},
+				   {title: "Bria's Interlude", spotifyURI: "4i3GraNMzBKze1WsVl38DS".link("https://open.spotify.com/track/4i3GraNMzBKze1WsVl38DS")},
+				   {title: "The Calm", spotifyURI: "6MlGqWzDiLkZ0vmAEsisEk".link("https://open.spotify.com/track/6MlGqWzDiLkZ0vmAEsisEk")},
+				   {title: "Brand New", spotifyURI: "4XTXamS1g4g93jPxyuFJJ6".link("https://open.spotify.com/track/4XTXamS1g4g93jPxyuFJJ6")},
+				   {title: "Congratulations", spotifyURI: "3SnXwQUrvSacFziUYXTNKY".link("https://open.spotify.com/track/3SnXwQUrvSacFziUYXTNKY")}];
+  
+  
+  
+           // change method changes the picture every two seconds
 // function change()
 // {
 
@@ -127,5 +173,9 @@ function search4(){
 }
 
 function search5(){
+
+}
+
+function search6(){
 
 }
